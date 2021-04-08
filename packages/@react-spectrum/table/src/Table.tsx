@@ -690,5 +690,8 @@ function CenteredWrapper({children}) {
   );
 }
 
+/**
+ * Tables are containers for displaying information. They allow users to quickly scan, sort, compare, and take action on large amounts of data.
+ */
 const _Table = React.forwardRef(Table);
 export {_Table as Table};
