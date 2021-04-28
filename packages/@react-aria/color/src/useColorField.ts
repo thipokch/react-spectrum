@@ -83,6 +83,7 @@ export function useColorField(
   };
 
   let {labelProps, inputProps} = useTextField(
+    // @ts-ignore - ignore unused incompatible props
     mergeProps(props, {
       id: inputId,
       value: inputValue,
