@@ -115,6 +115,19 @@ This codebase contains ResizeObserver.d.ts type declaration file which can be ob
 
 ------------------------------------------------------------------------------
 
+This codebase contains a portion of code that vuejs adapted from jest-dom which can be obtained at:
+  * SOURCE:
+    * https://github.com/vuejs/vue-test-utils-next/blob/master/src/utils/isElementVisible.ts
+  * LICENSE:
+    * https://github.com/vuejs/vue-test-utils-next/blob/master/LICENSE
+
+  * SOURCE:
+    * https://github.com/testing-library/jest-dom/blob/main/src/to-be-visible.js
+  * LICENSE:
+    * https://github.com/testing-library/jest-dom/blob/main/LICENSE
+
+------------------------------------------------------------------------------
+
 This codebase contains contains a modified portion of Bang's RGB color names (678 colors)
 
 * SOURCE:
@@ -131,4 +144,4 @@ This codebase contains contains a modified portion of Bang's RGB color names (67
 
   Copyright 2021 Per Bang
 
-
+------------------------------------------------------------------------------
