@@ -693,5 +693,5 @@ function CenteredWrapper({children}) {
 /**
  * Tables are containers for displaying information. They allow users to quickly scan, sort, compare, and take action on large amounts of data.
  */
-const _Table = React.forwardRef(Table);
+const _Table = React.forwardRef(Table) as <T>(props: SpectrumTableProps<T> & {ref?: DOMRef<HTMLDivElement>}) => ReactElement;
 export {_Table as Table};
